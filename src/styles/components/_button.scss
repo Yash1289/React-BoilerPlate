@@ -1,0 +1,23 @@
+.button {
+    background : $dodger-blue;
+    padding: $s-size $s-size;
+    font-size: $font-size-large;
+    display: inline-block;
+    border: none;
+    color: whitesmoke;
+    border-radius: 2px;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.button--link{
+    background: none;
+    font-size: 2.3rem;
+}
+
+.button--secondary{
+    background: #888;
+    margin-bottom: $s-size;
+}
+//inline elements don't take vertical margin and padding into effect and inline-block does take it
